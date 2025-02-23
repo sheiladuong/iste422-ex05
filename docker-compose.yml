@@ -1,0 +1,5 @@
+services:
+  ex05:
+    build: .
+    ports:
+      - "80:80"

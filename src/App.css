@@ -1,0 +1,283 @@
+body {
+    background-color: #101012;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #7b90a9;
+    padding: 3px 20px;
+    box-sizing: border-box;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-list {
+display: flex;
+gap: 20px;
+}
+
+.navbar .nav-item {
+font-size: 1.5rem;
+margin: 20px;
+}
+
+.navbar .nav-item a {
+color: #101012;
+}
+  
+.navbar-logo {
+    height: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.accordion-container {
+    margin: 0 80px;
+}
+
+
+/*          ABOUT           */
+.about-title-background {
+    background-image: url("../public/gradient-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 100px;
+}
+
+.about-title-container {
+    width: 70%;
+}
+
+.about-title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.about-desc-container {
+    margin: 40px;
+    padding: 50px;
+}
+
+.about-desc {
+    font-size: 1.5rem;
+}
+
+.about-quote-container {
+    padding: 30px;
+    background-color: #343b4f;
+}
+
+.about-quote {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+/*        ABOUT END         */
+
+/*          DEGREES         */
+.degrees {
+    margin: 70px 0 30px 0;
+}
+
+.degree-type {
+    margin: 40px 0 15px 80px;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.degrees-title {
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.concentration-title {
+    font-weight: 700;
+}
+/*        DEGREES END       */
+
+
+/*          MINORS         */
+.minors {
+    margin: 70px 0 30px 0;
+}
+
+.minors-title {
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.minors-courses {
+    font-weight: 700;
+}
+
+/*        MINORS END       */
+
+
+/*        EMPLOYMENT       */
+.employment {
+    margin: 70px 0 30px 0;
+}
+
+.employ-intro {
+    margin-bottom: 35px;
+    letter-spacing: 0.1rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+
+}
+
+.employ-content {
+    margin: 0 80px;
+}
+
+.employ-content-title {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.employ-content-desc {
+    margin: 0 0 35px 15px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* EMPLOYEMENT - Degree Statistics */
+.degree-stats-container {
+    background-color: #333a4f;
+    padding-bottom: 40px;
+}
+
+.degree-stats-row {
+    display: flex;
+}
+
+.degree-stats-col {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #CCCCCC;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.degree-stats-col:last-child {
+    border-right: none;
+}
+
+.degree-stats-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.degree-stats-title {
+    margin: 55px 0 50px 0;
+    padding-top: 40px;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.degree-stats-value {
+    font-size: 2rem;
+}
+
+.degree-stats-desc {
+    margin: 20px 50px;
+    font-size: 1.1rem;
+}
+
+/* EMPLOYMENT - Employers and Careers */
+.employers-careers-container {
+    background-color: #161924;
+    padding: 50px;
+}
+
+.employers-container {
+    margin: 0 60px;
+}
+
+.employers-title {
+    margin: 10px 0 20px 0;
+    font-size: 1.9rem;
+    font-weight: 400;    
+}
+
+.employers-names-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employers-names {
+    font-size: 1.05rem;
+}
+
+.careers-container {
+    margin: 0 60px;
+}
+
+.careers-title {
+    margin: 55px 0 20px 0;
+    font-size: 1.9rem;
+    font-weight: 400;    
+}
+
+.careers-names-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.careers-names {
+    font-size: 1.05rem;
+}
+
+/* EMPLOYMENT - Coop and Employment Table */
+.coopTable-title {
+    margin: 55px 0 15px 0;
+    font-size: 2.2rem;
+}
+
+.employTable-title {
+    margin: 40px 0 15px 0;
+    padding-top: 40px;
+    font-size: 2.2rem;
+}
+
+.center-table {
+    display: flex;
+    justify-content: center;
+}
+/*     EMPLOYMENT END      */
+
+/*         PEOPLE          */
+.people {
+    margin: 70px 0 30px 0;
+}
+
+.people-group-title {
+    margin: 4px 0 20px 0;
+    font-size: 1.9rem;
+}
+
+.people-tabs {
+    background-color: #1a1a1a;
+    padding-bottom: 40px;
+}
+/*       PEOPLE END        */
